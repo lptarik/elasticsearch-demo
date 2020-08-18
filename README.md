@@ -25,7 +25,7 @@
     kubectl port-forward kibana-5645d8d5b9-2dds4 5601:5601 --namespace=kube-logging
     http://localhost:5601
 
-**Kibana'ya bağlandıktan sonra Index oluşturmamız *"logstash-*"* adlı gerekiyor.**
+**Kibana'ya bağlandıktan sonra Index oluşturmamız "logstash-*" adlı gerekiyor.**
 ##### *Index oluştururken filter olarak @timestamp seçmeyi unutmayın*
 
 ![test](images/kibana.PNG)
