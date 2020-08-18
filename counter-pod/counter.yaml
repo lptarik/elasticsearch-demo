@@ -3,7 +3,7 @@ kind: Pod
 metadata:
   name: counter
 spec:
-containers:
+  containers:
   - name: count
     image: busybox
     args: [/bin/sh, -c,
