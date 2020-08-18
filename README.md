@@ -1,4 +1,4 @@
-# Kubernetes içerisinde EFK stack ile log toplama.
+# Kubernetes içerisinde EFK stack ile log toplama
 
 # İlk olarak namespace ve elasticsearch kaynaklarını oluşturuyoruz.
 kubectl create -f namespace.yaml
