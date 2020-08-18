@@ -9,7 +9,7 @@
     kubectl port-forward es-cluster-0 9200:9200 --namespace=kube-logging
     curl http://localhost:9200/_cluster/state?pretty
 ##### *curl aşağıdaki gibi bir sonuç vermesi gerekmektedir. StatusCode 200*
-![enter image description here](images/elasticsearch.PNG)
+![test](images/elasticsearch.PNG)
 
 **En son olarak Kibana ve Fluentd yaml dosyalarını çalıştırıyoruz.**
 
