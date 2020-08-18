@@ -26,4 +26,13 @@
     http://localhost:5601
 
 **Kibana'ya bağlandıktan sonra Index oluşturmamız gerekiyor.**
+##### *Index oluştururken filter olarak @timestamp seçmeyi unutmayın*
+
+![test](images/kibana.PNG)
+
+##### *Daha sonra Discover kısmına gelip search kısmına pod name field'ını yazıp podumuzu yazıyıyoruz. Bu durumda "counter"* 
+Ekran görüntüsünde görüldüğü 
+
+    kubernetes.pod_name: counter
+![enter image description here](images/discover.PNG)
 
